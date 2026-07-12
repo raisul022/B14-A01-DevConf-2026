@@ -348,14 +348,10 @@ header{
 }
 
 .price-card:hover{
-
-    transform:translateY(-8px);
+ 
     box-shadow:0 18px 35px rgba(0,0,0,.12);
 }
 
-.featured:hover{
-    transform:translateY(-8px) scale(1.03);
-}
 
 .price-card ul{
     padding-left:20px;
@@ -414,8 +410,6 @@ header{
 }
 
 .hackathon-card:hover{
-
-    transform:translateY(-8px);
     box-shadow:0 15px 35px rgba(37,99,235,.15);
 }
 
@@ -427,7 +421,6 @@ header{
     padding:16px 36px;
     border-radius:10px;
     font-weight:600;
-    transition:.3s ease;
 }
 
 .hackathon{

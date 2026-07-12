@@ -431,3 +431,43 @@ header{
 
     background:#1D4ED8;
 }
+
+.footer{
+
+    background:#0F172A;
+    padding:28px 0;
+
+}
+
+.footer-content{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.copyright{
+
+    color:#aba6a6;
+    font-size:14px;
+}
+.footer-links{
+
+    display:flex;
+    gap:25px;
+
+}
+
+.footer-links a{
+
+    text-decoration:none;
+    color:#94A3B8;
+    font-size:14px;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+
+    color:#ffffff;
+}

@@ -11,30 +11,24 @@ html{
 body{
 
     font-family: "Inter", sans-serif;
-
     background:#ffffff;
-
     color:#111827;
-
     line-height:1.6;
 
 }
 a{
 
     text-decoration:none;
-
     color:inherit;
 
 }
 ul{
 
     list-style:none;
-
 }
 section{
 
     padding:90px 8%;
-
 }
  /* navigaTION  */
 
@@ -369,4 +363,78 @@ header{
 
 .featured li{
     color:white;
+}
+/* 
+   AI part
+ */
+
+.hackathon{
+
+    background:#EFF6FF;
+}
+
+.hackathon-subtitle{
+
+    max-width:700px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#6B7280;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.hackathon-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.hackathon-card{
+
+    background:#ffffff;
+    border-radius:14px;
+    padding:35px;
+    border:1px solid #DBEAFE;
+    transition:.3s ease;
+}
+
+.hackathon-card h3{
+
+    font-size:24px;
+    color:#1D4ED8;
+    margin-bottom:15px;
+}
+
+.hackathon-card p{
+
+    color:#6B7280;
+    line-height:1.8;
+}
+
+.hackathon-card:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
+}
+
+.hackathon-btn{
+
+    display:inline-block;
+    background:#2563EB;
+    color:#ffffff;
+    padding:16px 36px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.hackathon{
+
+    text-align:center;
+}
+.hackathon-btn:hover{
+
+    background:#1D4ED8;
 }

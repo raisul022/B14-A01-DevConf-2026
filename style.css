@@ -352,8 +352,11 @@ header{
     box-shadow:0 18px 35px rgba(0,0,0,.12);
 }
 
-
+.price-card li::marker{
+    color:#2563EB; 
+}
 .price-card ul{
+     list-style-type: disc;
     padding-left:20px;
 }
 
